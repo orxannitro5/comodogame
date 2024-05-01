@@ -28,10 +28,10 @@ export default function Aboutusblock() {
             </div>
             <div className="home-section-third-block-last-block">
                 <div className="home-section-third-block-images-texts">
-                    <div className="home-section-third-block-images-text">Best Ps4 Games</div>
-                    <div className="home-section-third-block-images-text">World Dart 2019</div>
-                    <div className="home-section-third-block-images-text">New XBOX GAMES</div>
-                    <div className="home-section-third-block-images-text">American Football</div>
+                    <div className="home-section-third-block-images-text best-game">Best Ps4 Games</div>
+                    <div className="home-section-third-block-images-text world-dart" >World Dart 2019</div>
+                    <div className="home-section-third-block-images-text xbox-games">New XBOX GAMES</div>
+                    <div className="home-section-third-block-images-text american-football">American Football</div>
                 </div>
                 <div className="home-section-third-block-images">
                     <div className="home-section-third-block-image"><img src={playstation} alt="" /></div>

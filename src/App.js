@@ -6,18 +6,23 @@ import About from "./about";
 import Gallery from "./gallery";
 import Pricing from "./pricing";
 import Blog from "./blog";
+import ViewMore from "./view-more";
+import Contact from "./contact"
 
 
 function App (){
   return(
     <>
+    
       <Header />
-      {/* <Home /> */}
-      {/* <About /> */}
-      {/* <Gallery /> */}
-      {/* <Pricing /> */}
+      <Home />
+      {/* <About />
+      <Gallery />
+      <Pricing />
       <Blog />
-      <Footer />
+      <ViewMore />
+      <Contact /> */}
+      <Footer /> 
     </>
   )
 }

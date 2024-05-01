@@ -36,6 +36,9 @@
     font-weight: 400;
     font-style: normal;
 }
+.home-section-third-block-top-side-right-side{
+    margin-right: 25px;
+}
 .racer-photo{
     position: absolute;
     top: 67px;
@@ -69,7 +72,7 @@
     padding: 50px 0px;
 }
 .home-section-third-block-image{
-    margin-inline: 16px
+    margin-inline: 14px
 }
 .home-section-third-block-images{
     display: flex;
@@ -83,6 +86,7 @@
     position: absolute;
     top: 195px;
     color: white;
+    margin-right: 7px;
     font-family: "Rajdhani", sans-serif;
     font-weight: 600;
     font-style: bold;
@@ -101,4 +105,44 @@
     display: flex;
     justify-content: center;
     align-items: center;   
+}
+@media (max-width:1140px){
+    .racer-photo{
+        display: none;
+    }
+    .home-section-third-block-top-side-left-side-content {
+        width: 85%;
+    }
+    .home-section-third-block-top-side-left-side{
+        width: 768px;
+        margin: 0px;
+    }
+    .home-section-third-block-top-side-right-side{
+        margin-right: 40px;
+    }
+    .home-section-third-block-images{
+        display: flex;
+        flex-wrap: wrap;
+        width: 768px;
+    }
+    .home-section-third-block-image{
+        width: 45%;
+        text-align: center;
+    }
+    .home-section-third-block-images-texts{
+        display: flex;
+        flex-wrap: wrap;
+        width: 741px;
+        
+        height: 700px;
+    }
+    .home-section-third-block-images-text{
+        width: 35%;
+    }
+    .world-dart,.american-football{
+        margin-right: 50px;
+    }
+    .best-game,.xbox-games{
+        margin-left: 57px;
+    }
 }

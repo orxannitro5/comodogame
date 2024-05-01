@@ -84,5 +84,24 @@
 }
 .pricing-plans-btn:hover{
     background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
-color: black;
+    color: black;
+}
+@media(max-width:1140px){
+    .pricing-plans-container{
+        width: 768px;
+        justify-content: space-around;
+
+    }
+    .pricing-plans-info{
+        width: 30%;
+    }
+    .pricing-plans-name{
+        width: 100%;
+    }
+    .pricing-plans-button{
+        width: 100%;
+    }
+    .pricing-plans-btn{
+        width: 60%;
+    }
 }

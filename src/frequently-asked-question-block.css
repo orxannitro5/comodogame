@@ -60,3 +60,8 @@
     border-left: 1px dotted grey;
     
 }
+@media (max-width:1140px){
+    .frequently-asked-question-main-content-right-side,.frequently-asked-question-main-content-text{
+        border: 0px;
+    }
+}

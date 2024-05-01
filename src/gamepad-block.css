@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .gamepad-main-block{
     background-image: url(./assets/testimonial_bg.png.webp);
     background-position: center;

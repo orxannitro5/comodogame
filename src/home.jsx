@@ -19,15 +19,15 @@ export default function Home() {
         <div className="home-main">
             <div className="home-main-content">
                 <WatchVideoBlock />
-                <AboutUsBlock />
-                <div className="home-section-fourth-block">
+                 <AboutUsBlock />
+               <div className="home-section-fourth-block">
                     <div className="home-section-fourth-block-top-side">
                         <div className="home-section-fourth-block-top-side-nav">Live streaming</div>
                         <div className="home-section-fourth-block-top-side-nav">Upcoming Challenges</div>
                         <div className="home-section-fourth-block-top-side-nav">Recent Famous Games</div>
                     </div>
                     <div className="home-section-fourth-block-bottom-side">
-                        <img src={americanfootballlarge} alt="" />
+                        <img className="home-section-fourth-block-bottom-side-image" src={americanfootballlarge} alt="" />
                         <div className="home-section-fourth-block-bottom-side-right">
                             <p className="home-section-fourth-block-bottom-side-right-info">ABOUT US <br />________</p>
                             <h2 className="home-section-fourth-block-bottom-side-right-title">We Believe that
@@ -37,8 +37,8 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <ScreensGallery />
-                <GamepadBlock />
+                 <ScreensGallery />
+                {/* <GamepadBlock /> */}
                 <PricingPlans />
                 <FrequentlyAsked />
                 <div className="home-section-latest-blog-posts">
@@ -48,7 +48,7 @@ export default function Home() {
                     </div>
                     <div className="home-section-latest-blog-posts-main-content">
                         <div className="home-section-blog">
-                            <img  src={LatestBlogPostsFirstImage} alt="" />
+                            <img  className="home-section-blog-image" src={LatestBlogPostsFirstImage} alt="" />
                             <div className="home-section-blog-content">
                                 <h4 className="home-section-blog-content-title">Portable Fashion for women</h4>
                                 <p className="home-section-blog-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -62,7 +62,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="home-section-blog">
-                            <img src={LatestBlogPostsSecondImage} alt="" />
+                            <img className="home-section-blog-image" src={LatestBlogPostsSecondImage} alt="" />
                             <div className="home-section-blog-content">
                                 <h4 className="home-section-blog-content-title">Portable Fashion for women</h4>
                                 <p className="home-section-blog-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -75,8 +75,8 @@ export default function Home() {
 
                             </div>
                         </div>
-                        <div className="home-section-blog">
-                            <img src={LatestBlogPostsThirdImage} alt="" />
+                        <div className="home-section-blog home-section-blog-deleted">
+                            <img className="home-section-blog-image" src={LatestBlogPostsThirdImage} alt="" />
                             <div className="home-section-blog-content">
                                 <h4 className="home-section-blog-content-title">Portable Fashion for women</h4>
                                 <p className="home-section-blog-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et

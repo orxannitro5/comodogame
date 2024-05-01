@@ -70,3 +70,19 @@
 .play-emoji{
     font-size: 20px
 }
+@media (max-width:1140px){
+    .home-section-first-block-left-side{
+        display: none;
+    }
+    .home-section-first-block-right-side{
+        width: 80%;
+    }
+    .home-section-first-block-content{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .watch-video-block{
+        padding-left: 20px;
+    }
+}
