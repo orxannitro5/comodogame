@@ -34,7 +34,10 @@ export default function Header() {
                         <NavLink to="/contact" activeClassName="active" className="nav-link">CONTACT</NavLink>
                     </div>
                     <button className="header-button">JOIN US</button>
-                    <div className="burger-icon" onClick={toggleMenu}>☰</div>
+                    <div className="burger-icon" onClick={toggleMenu}>
+                    {isMenuOpen ? "X"  : '☰'}
+
+                    </div>
                 </div>
             </div>
             {isMenuOpen && (
