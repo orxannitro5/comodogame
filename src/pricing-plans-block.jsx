@@ -5,25 +5,25 @@ export default function PricingPlans() {
         {
             name: "Silver Package",
             price: "69$",
-            infofirst: "Basic hair Cut",
-            infosecond: "Basic hair Cut",
-            infothird: "Basic hair Cut",
+            infofirst: "CS GO",
+            infosecond: "Team Fortress",
+            infothird: "ETS 2",
 
         },
         {
             name: "Gold Package",
             price: "99$",
-            infofirst: "Advanced hair Cut",
-            infosecond: "Advanced hair Cut",
-            infothird: "Advanced hair Cut",
+            infofirst: "CS 2",
+            infosecond: "PES 2019",
+            infothird: "PUBG",
 
         },
         {
             name: "Platinum Package",
             price: "129$",
-            infofirst: "Premium hair Cut",
-            infosecond: "Premium hair Cut",
-            infothird: "Premium hair Cut",
+            infofirst: "FORTNITE",
+            infosecond: "PES 2024",
+            infothird: "FIFA 24",
         }
     ]
     

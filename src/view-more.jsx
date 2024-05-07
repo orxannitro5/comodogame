@@ -30,7 +30,7 @@ export default function ViewMore() {
             <div className="view-more-block">
                 <div className="view-more-content">
                     <div className="view-more-left">
-                        <img src={largephoto} alt="" />
+                        <img className="view-more-left-image" src={largephoto} alt="" />
                         <div className="view-more-left-desc">
                             <div className="info-left">
                                 <p className="info-left-content">Food,Technology</p>
@@ -38,7 +38,7 @@ export default function ViewMore() {
                                 <p className="info-left-content">Mark wiens 👤</p>
                                 <p className="info-left-content">12 Dec,2017 📅</p>
                                 <p className="info-left-content">1.2M views 👁️‍🗨️</p>
-                                <p className="info-left-content">06 comments 💬</p>
+                                <p className="info-left-content">06 comments💬</p>
                             </div>
                             <div className="view-more-left-desc-right-part">
                                 <h2 className="view-more-left-desc-right-part-title">Astronomy Binoculars A Great Alternative</h2>
@@ -62,14 +62,14 @@ export default function ViewMore() {
 
                         </p>
                         <div className="view-more-posts">
-                            <img src={postmore} alt="" />
-                            <img src={postmore2} alt="" />
+                            <img className="view-more-post" src={postmore} alt="" />
+                            <img className="view-more-post" src={postmore2} alt="" />
                         </div>
                         <div className="commentary-section">
                             <h4 className="commentary-section-title">05 Comments</h4>
                             <div className="commentary-block">
                                 <div className="commentary-block-left">
-                                    <img src={profilephoto1} alt="" />
+                                    <img className="commentray-block-image" src={profilephoto1} alt="" />
                                     <div className="commentary-info">
                                         <h4 className="commentary-info-nickname">Emilly Bunt</h4>
                                         <p className="commentary-info-date">
@@ -84,14 +84,14 @@ export default function ViewMore() {
                             </div>
                             <div className="commentary-block">
                                 <div className="commentary-block-left">
-                                    <img src={profilephoto2} alt="" />
+                                    <img className="commentray-block-image" src={profilephoto2} alt="" />
                                     <div className="commentary-info">
                                         <h4 className="commentary-info-nickname">Emilly Bunt</h4>
                                         <p className="commentary-info-date">
                                             December 4, 2017 at 3:12 pm
                                         </p>
                                         <p className="commentary">
-                                            Never say goodbye till the end comes!
+                                            Kravaci,mne nravitsya
                                         </p>
                                     </div>
                                 </div>
@@ -99,14 +99,14 @@ export default function ViewMore() {
                             </div>
                             <div className="commentary-block">
                                 <div className="commentary-block-left">
-                                    <img src={profilephoto3} alt="" />
+                                    <img className="commentray-block-image" src={profilephoto3} alt="" />
                                     <div className="commentary-info">
                                         <h4 className="commentary-info-nickname">Emilly Bunt</h4>
                                         <p className="commentary-info-date">
                                             December 4, 2017 at 3:12 pm
                                         </p>
                                         <p className="commentary">
-                                            Never say goodbye till the end comes!
+                                            Your are very good at that!
                                         </p>
                                     </div>
                                 </div>
@@ -114,14 +114,14 @@ export default function ViewMore() {
                             </div>
                             <div className="commentary-block">
                                 <div className="commentary-block-left">
-                                    <img src={profilephoto4} alt="" />
+                                    <img className="commentray-block-image" src={profilephoto4} alt="" />
                                     <div className="commentary-info">
                                         <h4 className="commentary-info-nickname">Emilly Bunt</h4>
                                         <p className="commentary-info-date">
                                             December 4, 2017 at 3:12 pm
                                         </p>
                                         <p className="commentary">
-                                            Never say goodbye till the end comes!
+                                            Wowwwww!
                                         </p>
                                     </div>
                                 </div>
@@ -129,14 +129,14 @@ export default function ViewMore() {
                             </div>
                             <div className="commentary-block">
                                 <div className="commentary-block-left">
-                                    <img src={profilephoto5} alt="" />
+                                    <img className="commentray-block-image" src={profilephoto5} alt="" />
                                     <div className="commentary-info">
                                         <h4 className="commentary-info-nickname">Emilly Bunt</h4>
                                         <p className="commentary-info-date">
                                             December 4, 2017 at 3:12 pm
                                         </p>
                                         <p className="commentary">
-                                            Never say goodbye till the end comes!
+                                            Never say goodbye!
                                         </p>
                                     </div>
                                 </div>

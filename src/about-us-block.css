@@ -19,7 +19,7 @@
 .home-section-third-block-top-side-left-side-content-info,.home-section-fourth-block-bottom-side-right-info{
     margin-bottom: 30px;
 }
-.home-section-third-block-top-side-left-side-content-title,.home-section-fourth-block-bottom-side-right-title{
+.home-section-third-block-top-side-left-side-content-title{
     padding: 30px 0px;
     font-size: 36px;
 }
@@ -33,7 +33,7 @@
     border-radius: 10px;
     border: 0px;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 .home-section-third-block-top-side-right-side{
@@ -71,6 +71,11 @@
     position: relative;
     padding: 50px 0px;
 }
+.home-section-third-block-top-side-left-side-content-button{
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+    letter-spacing: 1px;
+}
 .home-section-third-block-image{
     margin-inline: 14px
 }
@@ -105,6 +110,9 @@
     display: flex;
     justify-content: center;
     align-items: center;   
+}
+.best-game{
+    margin-left: 10px;
 }
 @media (max-width:1140px){
     .racer-photo{
@@ -145,4 +153,54 @@
     .best-game,.xbox-games{
         margin-left: 57px;
     }
+}
+@media (max-width:768px){
+    .home-section-third-block-top-side-left-side{
+        width: 100%;
+        margin: 0px;
+    }
+    .home-section-third-block-top-side-left-side-content-title{
+        font-size: 22px;
+    }
+    .home-section-third-block-top-side-left-side-content-text{
+        font-weight: 500;
+    }
+    .home-section-third-block-top-side-left-side-content{
+        width: auto;
+        padding: 35px 10px 35px 35px;
+    }
+    .home-section-third-block-images{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .home-section-third-block-images-texts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: 1120px;
+        margin: 0px;
+    } 
+    .home-section-third-block-images-text{
+        margin: 0px;
+        width: 260px;
+    }  
+    .home-section-third-block-title{
+        width: 355px;
+        margin: 0px;
+    }
+    .home-section-third-block-low-opacity-title{
+        font-size: 50px;
+    }
+    .home-section-third-block-high-opacity-title{
+        font-size: 36px;
+        margin-top: -50px;
+    }
+    .home-section-third-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }

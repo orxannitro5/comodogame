@@ -9,23 +9,23 @@ export default function Gamepad() {
     const slidesData = [
         {
             username: "Orxan Ahmedov",
-            stars: 5,
-            firstText: "As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth.",
-            secondText: "If you think about it, you travel across her face and She is the host to your journey.",
+            stars: 4,
+            firstText: "Azerbaijan,Sumgait  17 hours ago",
+            secondText: "Engaging gameplay, endless fun.",
             
         },
         {
             username: "Rufat Kerimov",
             stars: 3,
-            firstText: "As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth.",
-            secondText: "If you think about it, you travel across her face and She is the host to your journey.",
+            firstText: "Azerbaijan,Sumgait  2 weeks ago",
+            secondText: "Disappointing, not worth it.",
             
         },
         {
             username: "Shami Bekerova",
             stars: 5,
-            firstText: "As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth.",
-            secondText: "If you think about it, you travel across her face and She is the host to your journey.",
+            firstText: "Azerbaijan,Hovsan 2 minutess ago",
+            secondText: "Incredible game, pure joy.",
             
         }
         // Добавьте другие элементы массива по аналогии с примером выше
@@ -40,6 +40,7 @@ export default function Gamepad() {
             slidesToScroll: 1,
             autoplay: false,
             autoplaySpeed: 2000,
+            arrows:false,
         };
 
         return (

@@ -49,7 +49,7 @@ export default function Contact() {
                             </div>
                         </div>
                         <div className="contact-form-third-part">
-                            <textarea name="" className="contact-form-third-part-textarea" placeholder="Message" id="" cols="30" rows="10">
+                            <textarea name="" className="contact-form-third-part-textarea" placeholder="Message" id="">
 
                             </textarea>
                             <div className="contact-form-third-part-button">

@@ -14,11 +14,12 @@ export default function screensGallery() {
             </div>
             <div className="screens-gallery-photos">
                 <div className="screens-gallery-left-side">
-                    <div className="screens-gallery-left-side-first-row"><img src={galleryfirstimage} alt="" />
-                        <img src={gallerysecondimage} alt="" />
+                    <div className="screens-gallery-left-side-first-row">
+                        <img className="screens-gallery-left-side-first-row-image" src={galleryfirstimage} alt="" />
+                        <img className="screens-gallery-left-side-first-row-image" src={gallerysecondimage} alt="" />
                     </div>
                     <div className="screens-gallery-left-side-second-row">
-                        <img src={gallerythirdimage} alt="" />
+                        <img className="screens-gallery-left-side-second-row-image" src={gallerythirdimage} alt="" />
                     </div>
 
                 </div>

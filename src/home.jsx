@@ -19,7 +19,7 @@ export default function Home() {
         <div className="home-main">
             <div className="home-main-content">
                 <WatchVideoBlock />
-                 <AboutUsBlock />
+                <AboutUsBlock />
                <div className="home-section-fourth-block">
                     <div className="home-section-fourth-block-top-side">
                         <div className="home-section-fourth-block-top-side-nav">Live streaming</div>
@@ -30,7 +30,7 @@ export default function Home() {
                         <img className="home-section-fourth-block-bottom-side-image" src={americanfootballlarge} alt="" />
                         <div className="home-section-fourth-block-bottom-side-right">
                             <p className="home-section-fourth-block-bottom-side-right-info">ABOUT US <br />________</p>
-                            <h2 className="home-section-fourth-block-bottom-side-right-title">We Believe that
+                            <h2 className="home-section-fourth-block-bottom-side-right-title ">We Believe that
                                 Interior beauty Lasts Long</h2>
                             <p className="home-section-fourth-block-bottom-side-right-text">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that as women.</p>
                             <button className="home-section-fourth-block-bottom-side-right-button">LEARN MORE</button>
@@ -38,7 +38,7 @@ export default function Home() {
                     </div>
                 </div>
                  <ScreensGallery />
-                {/* <GamepadBlock /> */}
+                <GamepadBlock />
                 <PricingPlans />
                 <FrequentlyAsked />
                 <div className="home-section-latest-blog-posts">

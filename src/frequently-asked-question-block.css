@@ -64,4 +64,40 @@
     .frequently-asked-question-main-content-right-side,.frequently-asked-question-main-content-text{
         border: 0px;
     }
+    .frequently-asked-question-main-block{
+        
+        width: 80%;
+    }
+    .frequently-asked-question-main-content-right-side{
+        margin-left: 20px;
+    }
+}
+@media(max-width:768px){
+    .frequently-asked-question-block-title{
+        width: 375px;
+        margin: 20px;
+    }
+    .frequently-asked-question-low-opacity-title{
+        font-size: 30px;
+    }
+    .frequently-asked-question-high-opacity-title{
+        font-size: 26px;
+        margin-top: -20px;
+    }
+    .frequently-asked-question-main-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .frequently-asked-question-main-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .frequently-asked-question-main-content-title,.frequently-asked-question-main-content-text{
+        text-align: left;
+    }
+    .frequently-asked-question-main-content-right-side{
+        margin: 0px;
+    }
 }
